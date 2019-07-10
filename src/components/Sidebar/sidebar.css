@@ -1,0 +1,7 @@
+.sidebar {
+  display: flex;
+  float: left;
+  width: 5em;
+  background-color: beige;
+  padding: 0; /* Containers should never have padding - nest a Panel component if you need it */
+}
