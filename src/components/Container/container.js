@@ -15,7 +15,7 @@ export const Container = props => {
     [styles.container]: !className,
     [className]: !!className
   });
-
+  
   return (
     <div className={classes} {...attrs}>
       {children}

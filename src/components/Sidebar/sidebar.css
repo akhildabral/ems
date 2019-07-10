@@ -2,6 +2,22 @@
   display: flex;
   float: left;
   width: 5em;
-  background-color: beige;
+  background-color: #444444; 
   padding: 0; /* Containers should never have padding - nest a Panel component if you need it */
+  flex-direction: column;
+  height : 100%
+}
+
+.sidebar .link a {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+}
+
+.link{
+  padding: 1em;
+}
+
+.sidebar div:hover{
+  background-color: goldenrod;
 }
