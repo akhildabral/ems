@@ -1,2 +1,2 @@
 export { Home } from './home'
-export { Settings } from './settings'
+export { default as Settings } from './settings'

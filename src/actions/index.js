@@ -1,1 +1,1 @@
-export {simpleAction} from './simpleAction'
+export { updateBudget, addCategory } from './settings'

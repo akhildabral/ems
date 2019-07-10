@@ -19,7 +19,6 @@ export const Sidebar = props => {
   return (
     <div className={classes} {...attrs}>
       {children.map((child, i) => {
-        console.log(child)
        return <div key={i} className="link"> {child} </div>
       })}
     </div>
